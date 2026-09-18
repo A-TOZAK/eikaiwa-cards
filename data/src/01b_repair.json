@@ -1,0 +1,146 @@
+{
+ "id": "repair",
+ "group": "出会う",
+ "title": "聞き返す・助けてもらう",
+ "en": "When I don't understand",
+ "cover": "img/cover_hello.jpg",
+ "lead": "聞き取れないとき、言葉が出ないときのひとことです。",
+ "cards": [
+  {
+   "id": "repair-01",
+   "lv": 1,
+   "scene": "聞き取れない",
+   "ja": "すみません、聞き取れませんでした。",
+   "en": "Sorry, I didn't catch that.",
+   "words": [
+    [
+     "catch",
+     "聞き取る"
+    ]
+   ]
+  },
+  {
+   "id": "repair-02",
+   "lv": 1,
+   "scene": "聞き取れない",
+   "ja": "もう少しゆっくりお願いします。",
+   "en": "A little slower, please.",
+   "words": []
+  },
+  {
+   "id": "repair-03",
+   "lv": 1,
+   "scene": "意味が分からない",
+   "ja": "その言葉は、どういう意味ですか。",
+   "en": "What does that word mean?",
+   "words": [
+    [
+     "mean",
+     "意味する"
+    ]
+   ]
+  },
+  {
+   "id": "repair-04",
+   "lv": 2,
+   "scene": "意味が分からない",
+   "ja": "かんたんな言葉で言ってもらえますか。",
+   "en": "Could you say that in easier words?",
+   "words": [
+    [
+     "easier",
+     "もっとかんたんな"
+    ]
+   ]
+  },
+  {
+   "id": "repair-05",
+   "lv": 2,
+   "scene": "確かめる",
+   "ja": "つまり、こういうことですか。",
+   "en": "So, you mean this?",
+   "words": [
+    [
+     "you mean 〜",
+     "つまり〜ということ"
+    ]
+   ]
+  },
+  {
+   "id": "repair-06",
+   "lv": 1,
+   "scene": "言葉が出ない",
+   "ja": "ええと、ちょっと待ってください。",
+   "en": "Um, let me think for a second.",
+   "words": [
+    [
+     "for a second",
+     "少しのあいだ"
+    ]
+   ]
+  },
+  {
+   "id": "repair-07",
+   "lv": 2,
+   "scene": "言葉が出ない",
+   "ja": "英語でどう言えばいいか、分かりません。",
+   "en": "I don't know how to say it in English.",
+   "words": []
+  },
+  {
+   "id": "repair-08",
+   "lv": 2,
+   "scene": "言葉が出ない",
+   "ja": "これは英語で何と言いますか。",
+   "en": "How do you say this in English?",
+   "words": []
+  },
+  {
+   "id": "repair-09",
+   "lv": 2,
+   "scene": "道具に頼る",
+   "ja": "翻訳アプリを使ってもいいですか。",
+   "en": "Can I use a translation app?",
+   "words": [
+    [
+     "translation",
+     "翻訳"
+    ]
+   ]
+  },
+  {
+   "id": "repair-10",
+   "lv": 2,
+   "scene": "道具に頼る",
+   "ja": "ここに書いてもらえますか。",
+   "en": "Could you type it here for me?",
+   "words": [
+    [
+     "type",
+     "文字を打つ"
+    ]
+   ]
+  },
+  {
+   "id": "repair-11",
+   "lv": 1,
+   "scene": "伝わった",
+   "ja": "ああ、分かりました。ありがとう。",
+   "en": "Oh, I see. Thank you!",
+   "words": [
+    [
+     "I see",
+     "分かりました"
+    ]
+   ]
+  },
+  {
+   "id": "repair-12",
+   "lv": 2,
+   "scene": "気持ちを言う",
+   "ja": "英語はまだまだですが、あなたと話したいんです。",
+   "en": "My English isn't great, but I really want to talk with you.",
+   "words": []
+  }
+ ]
+}

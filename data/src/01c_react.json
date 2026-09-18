@@ -1,0 +1,142 @@
+{
+ "id": "react",
+ "group": "出会う",
+ "title": "相づちとリアクション",
+ "en": "Reacting and keeping it going",
+ "cover": "img/cover_hello.jpg",
+ "lead": "話を聞いているときに返すひとことです。",
+ "cards": [
+  {
+   "id": "react-01",
+   "lv": 1,
+   "scene": "相づち",
+   "ja": "そうなんですね。",
+   "en": "Oh, really?",
+   "words": []
+  },
+  {
+   "id": "react-02",
+   "lv": 1,
+   "scene": "相づち",
+   "ja": "それはいいですね。",
+   "en": "That's great!",
+   "words": []
+  },
+  {
+   "id": "react-03",
+   "lv": 1,
+   "scene": "相づち",
+   "ja": "おもしろいですね。",
+   "en": "That's interesting.",
+   "words": [
+    [
+     "interesting",
+     "おもしろい・興味深い"
+    ]
+   ]
+  },
+  {
+   "id": "react-04",
+   "lv": 1,
+   "scene": "共感する",
+   "ja": "うちも同じです。",
+   "en": "Same here.",
+   "words": [],
+   "note": "自分も同じ、というときの短い言い方です。"
+  },
+  {
+   "id": "react-05",
+   "lv": 2,
+   "scene": "共感する",
+   "ja": "その気持ち、よく分かります。",
+   "en": "I know exactly how you feel.",
+   "words": [
+    [
+     "exactly",
+     "まさに"
+    ]
+   ]
+  },
+  {
+   "id": "react-06",
+   "lv": 2,
+   "scene": "共感する",
+   "ja": "それは大変でしたね。",
+   "en": "That must have been hard.",
+   "words": [
+    [
+     "must have been 〜",
+     "〜だったにちがいない"
+    ]
+   ]
+  },
+  {
+   "id": "react-07",
+   "lv": 2,
+   "scene": "ほめる",
+   "ja": "それ、すごくいいアイデアですね。",
+   "en": "That's a really good idea.",
+   "words": []
+  },
+  {
+   "id": "react-08",
+   "lv": 2,
+   "scene": "ほめる",
+   "ja": "その実践、うちのクラスでもやってみたいです。",
+   "en": "I'd love to try that in my class.",
+   "words": [
+    [
+     "try",
+     "試す"
+    ]
+   ]
+  },
+  {
+   "id": "react-09",
+   "lv": 1,
+   "scene": "もっと聞く",
+   "ja": "もう少し聞かせてください。",
+   "en": "Tell me more.",
+   "words": []
+  },
+  {
+   "id": "react-10",
+   "lv": 2,
+   "scene": "もっと聞く",
+   "ja": "たとえば、どんなふうにですか。",
+   "en": "For example? How does it work?",
+   "words": [
+    [
+     "for example",
+     "たとえば"
+    ]
+   ]
+  },
+  {
+   "id": "react-11",
+   "lv": 2,
+   "scene": "もっと聞く",
+   "ja": "子どもたちの反応は、どうでしたか。",
+   "en": "How did the kids react?",
+   "words": [
+    [
+     "react",
+     "反応する"
+    ]
+   ]
+  },
+  {
+   "id": "react-12",
+   "lv": 2,
+   "scene": "話をもどす",
+   "ja": "さっきの話にもどってもいいですか。",
+   "en": "Can I go back to what you said earlier?",
+   "words": [
+    [
+     "earlier",
+     "さっき"
+    ]
+   ]
+  }
+ ]
+}

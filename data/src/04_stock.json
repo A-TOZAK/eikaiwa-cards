@@ -1,0 +1,216 @@
+{
+ "id": "stock",
+ "group": "実践を話す",
+ "title": "School Stock のこと",
+ "en": "My free materials, School Stock",
+ "cover": "img/cover_stock.jpg",
+ "lead": "無料で公開している教材の棚の話です。",
+ "cards": [
+  {
+   "id": "stock-01",
+   "lv": 1,
+   "scene": "紹介する",
+   "ja": "School Stock という、無料の教材サイトを作っています。",
+   "en": "I run a free teaching materials website called School Stock.",
+   "words": [
+    [
+     "run",
+     "運営する"
+    ],
+    [
+     "called 〜",
+     "〜という名前の"
+    ]
+   ]
+  },
+  {
+   "id": "stock-02",
+   "lv": 1,
+   "scene": "紹介する",
+   "ja": "登録もパスワードも要りません。",
+   "en": "You don't need to sign up or log in.",
+   "words": [
+    [
+     "sign up",
+     "登録する"
+    ]
+   ]
+  },
+  {
+   "id": "stock-03",
+   "lv": 2,
+   "scene": "紹介する",
+   "ja": "先生は、ダウンロードして印刷するだけで使えます。",
+   "en": "Teachers can just download and print the materials.",
+   "words": [
+    [
+     "materials",
+     "教材"
+    ]
+   ]
+  },
+  {
+   "id": "stock-04",
+   "lv": 2,
+   "scene": "中身を話す",
+   "ja": "算数、国語、理科、社会のプリントがあります。",
+   "en": "There are worksheets for math, Japanese, science, and social studies.",
+   "words": [
+    [
+     "worksheet",
+     "プリント"
+    ]
+   ]
+  },
+  {
+   "id": "stock-05",
+   "lv": 2,
+   "scene": "中身を話す",
+   "ja": "いちばん使われているのは、毎日の宿題プリントです。",
+   "en": "The most popular ones are the daily homework sheets.",
+   "words": [
+    [
+     "the most popular",
+     "いちばん人気の"
+    ],
+    [
+     "daily",
+     "毎日の"
+    ]
+   ]
+  },
+  {
+   "id": "stock-06",
+   "lv": 3,
+   "scene": "中身を話す",
+   "ja": "表は算数の復習、裏は国語の読解です。",
+   "en": "The front side is a math review, and the back is reading.",
+   "words": [
+    [
+     "review",
+     "復習"
+    ],
+    [
+     "front side",
+     "表の面"
+    ]
+   ]
+  },
+  {
+   "id": "stock-07",
+   "lv": 3,
+   "scene": "中身を話す",
+   "ja": "答えの部分を折ってかくすので、子どもが自分で丸つけできます。",
+   "en": "Students fold the answer strip back, so they can check their own work.",
+   "words": [
+    [
+     "fold",
+     "折る"
+    ],
+    [
+     "check their own work",
+     "自分で丸つけする"
+    ]
+   ]
+  },
+  {
+   "id": "stock-08",
+   "lv": 3,
+   "scene": "中身を話す",
+   "ja": "同じめあてで、手助けの量だけがちがう4種類のプリントもあります。",
+   "en": "Some worksheets come in four levels. The goal is the same, but the amount of support is different.",
+   "words": [
+    [
+     "support",
+     "手助け"
+    ],
+    [
+     "amount",
+     "量"
+    ]
+   ]
+  },
+  {
+   "id": "stock-09",
+   "lv": 3,
+   "scene": "中身を話す",
+   "ja": "子どもが、自分に合う1枚を自分で選びます。",
+   "en": "The kids choose the level that fits them.",
+   "words": [
+    [
+     "choose",
+     "選ぶ"
+    ],
+    [
+     "fit",
+     "合う"
+    ]
+   ]
+  },
+  {
+   "id": "stock-10",
+   "lv": 2,
+   "scene": "なぜ無料か",
+   "ja": "なぜ無料なのか、よく聞かれます。",
+   "en": "People often ask me why it's free.",
+   "words": [
+    [
+     "often",
+     "よく"
+    ]
+   ]
+  },
+  {
+   "id": "stock-11",
+   "lv": 3,
+   "scene": "なぜ無料か",
+   "ja": "先生に時間のゆとりができれば、子どもとむき合う時間がふえるからです。",
+   "en": "If teachers get more breathing room, they can spend more time with their students.",
+   "words": [
+    [
+     "spend time with 〜",
+     "〜と時間をすごす"
+    ]
+   ]
+  },
+  {
+   "id": "stock-12",
+   "lv": 3,
+   "scene": "作り方を話す",
+   "ja": "教材の多くは、AIといっしょに作っています。",
+   "en": "I make most of the materials with the help of AI.",
+   "words": [
+    [
+     "with the help of 〜",
+     "〜の助けを借りて"
+    ]
+   ]
+  },
+  {
+   "id": "stock-13",
+   "lv": 3,
+   "scene": "作り方を話す",
+   "ja": "でも、全部のページを自分の目で確かめています。",
+   "en": "But I check every page with my own eyes.",
+   "words": [
+    [
+     "with my own eyes",
+     "自分の目で"
+    ]
+   ]
+  },
+  {
+   "id": "stock-14",
+   "lv": 1,
+   "scene": "見せる",
+   "ja": "よかったら、サイトを見てみてください。これです。",
+   "en": "Take a look at the site if you like. Here it is.",
+   "words": [
+    [
+     "take a look at 〜",
+     "〜を見てみる"
+    ]
+   ]
+  }
+ ]
+}

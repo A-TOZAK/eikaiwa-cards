@@ -1,0 +1,195 @@
+{
+ "id": "ugoku",
+ "group": "実践を話す",
+ "title": "うごく解説と特別支援",
+ "en": "Animated explainers and support",
+ "cover": "img/cover_ugoku.jpg",
+ "lead": "いま、いちばん力を入れていることです。",
+ "cards": [
+  {
+   "id": "ugoku-01",
+   "lv": 2,
+   "scene": "紹介する",
+   "ja": "短い、うごく解説の教材を作っています。",
+   "en": "I make short animated explainers for my lessons.",
+   "words": [
+    [
+     "animated",
+     "うごく"
+    ],
+    [
+     "explainer",
+     "解説の教材"
+    ]
+   ]
+  },
+  {
+   "id": "ugoku-02",
+   "lv": 2,
+   "scene": "紹介する",
+   "ja": "1本は、10秒から20秒くらいです。",
+   "en": "Each one is only ten to twenty seconds long.",
+   "words": [
+    [
+     "each one",
+     "1本ずつ"
+    ]
+   ]
+  },
+  {
+   "id": "ugoku-03",
+   "lv": 2,
+   "scene": "紹介する",
+   "ja": "1本につき、説明は1つだけです。",
+   "en": "Each one explains just one thing.",
+   "words": [
+    [
+     "explain",
+     "説明する"
+    ]
+   ]
+  },
+  {
+   "id": "ugoku-04",
+   "lv": 3,
+   "scene": "なぜ作るか",
+   "ja": "何回聞いても、分からない子がいます。",
+   "en": "Some kids don't get it even after hearing it many times.",
+   "words": [
+    [
+     "get it",
+     "分かる"
+    ],
+    [
+     "even after 〜",
+     "〜したあとでも"
+    ]
+   ]
+  },
+  {
+   "id": "ugoku-05",
+   "lv": 3,
+   "scene": "なぜ作るか",
+   "ja": "先生は、もう何度も説明しています。",
+   "en": "Teachers have already explained it again and again.",
+   "words": [
+    [
+     "again and again",
+     "何度も"
+    ]
+   ]
+  },
+  {
+   "id": "ugoku-06",
+   "lv": 3,
+   "scene": "なぜ作るか",
+   "ja": "それでも足りないところを、この教材でうめます。",
+   "en": "These explainers fill the gap that is still left.",
+   "words": [
+    [
+     "fill the gap",
+     "すきまをうめる"
+    ]
+   ]
+  },
+  {
+   "id": "ugoku-07",
+   "lv": 3,
+   "scene": "よさを話す",
+   "ja": "子どもは、分かるまで何度でも自分で見返せます。",
+   "en": "Kids can watch them again and again until they understand.",
+   "words": [
+    [
+     "until 〜",
+     "〜するまで"
+    ]
+   ]
+  },
+  {
+   "id": "ugoku-08",
+   "lv": 3,
+   "scene": "よさを話す",
+   "ja": "何度見ても、同じ順番で同じ言葉です。",
+   "en": "It shows the same steps in the same words every time.",
+   "words": [
+    [
+     "step",
+     "手順"
+    ],
+    [
+     "every time",
+     "毎回"
+    ]
+   ]
+  },
+  {
+   "id": "ugoku-09",
+   "lv": 2,
+   "scene": "よさを話す",
+   "ja": "音がないので、教室でそのまま流せます。",
+   "en": "There's no sound, so you can play them in class anytime.",
+   "words": [
+    [
+     "sound",
+     "音"
+    ]
+   ]
+  },
+  {
+   "id": "ugoku-10",
+   "lv": 2,
+   "scene": "中身を話す",
+   "ja": "筆算のしかたや、実験の道具の使い方などがあります。",
+   "en": "They show things like how to do column addition, or how to use science tools.",
+   "words": [
+    [
+     "column addition",
+     "たし算の筆算"
+    ],
+    [
+     "tool",
+     "道具"
+    ]
+   ]
+  },
+  {
+   "id": "ugoku-11",
+   "lv": 3,
+   "scene": "支援の話",
+   "ja": "子どもが自分を助けるための、支援カードも作りました。",
+   "en": "I also made support cards that help kids help themselves.",
+   "words": [
+    [
+     "help themselves",
+     "自分を助ける"
+    ]
+   ]
+  },
+  {
+   "id": "ugoku-12",
+   "lv": 3,
+   "scene": "支援の話",
+   "ja": "読むのが苦手な子、書くのが苦手な子への手だてを、ずっと考えてきました。",
+   "en": "I've always thought about how to support kids who struggle with reading or writing.",
+   "words": [
+    [
+     "struggle with 〜",
+     "〜に苦労する"
+    ]
+   ]
+  },
+  {
+   "id": "ugoku-13",
+   "lv": 1,
+   "scene": "相手に聞く",
+   "ja": "あなたの国では、そういう子をどう支えていますか。",
+   "en": "How do you support those kids in your country?",
+   "words": [
+    [
+     "support",
+     "支える"
+    ]
+   ]
+  }
+ ]
+}

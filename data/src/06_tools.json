@@ -1,0 +1,191 @@
+{
+ "id": "tools",
+ "group": "実践を話す",
+ "title": "つくった道具",
+ "en": "Tools I made",
+ "cover": "img/cover_tools.jpg",
+ "lead": "授業で使うために作ったWebの道具です。",
+ "cards": [
+  {
+   "id": "tools-01",
+   "lv": 2,
+   "scene": "紹介する",
+   "ja": "授業で使うWebの道具を、自分で作っています。",
+   "en": "I build web tools for my own lessons.",
+   "words": [
+    [
+     "build",
+     "作る"
+    ],
+    [
+     "web tool",
+     "Webの道具"
+    ]
+   ]
+  },
+  {
+   "id": "tools-02",
+   "lv": 2,
+   "scene": "紹介する",
+   "ja": "プログラマーではありません。AIといっしょに作っています。",
+   "en": "I'm not a programmer. I build them with AI.",
+   "words": [
+    [
+     "programmer",
+     "プログラマー"
+    ]
+   ]
+  },
+  {
+   "id": "tools-03",
+   "lv": 2,
+   "scene": "辞典の話",
+   "ja": "小学生のための、デジタルの国語辞典を作りました。",
+   "en": "I made a digital Japanese dictionary for elementary students.",
+   "words": [
+    [
+     "dictionary",
+     "辞典"
+    ]
+   ]
+  },
+  {
+   "id": "tools-04",
+   "lv": 2,
+   "scene": "辞典の話",
+   "ja": "8,000語以上が入っています。",
+   "en": "It has more than eight thousand words.",
+   "words": [
+    [
+     "thousand",
+     "千"
+    ]
+   ]
+  },
+  {
+   "id": "tools-05",
+   "lv": 2,
+   "scene": "辞典の話",
+   "ja": "小学校の英語のための、英語辞典もあります。",
+   "en": "There's also an English dictionary for elementary school English.",
+   "words": []
+  },
+  {
+   "id": "tools-06",
+   "lv": 2,
+   "scene": "そろばんの話",
+   "ja": "デジタルのそろばんも作りました。",
+   "en": "I made a digital abacus, too.",
+   "words": [
+    [
+     "abacus",
+     "そろばん"
+    ]
+   ],
+   "note": "そろばんは soroban のままでも通じることがあります。"
+  },
+  {
+   "id": "tools-07",
+   "lv": 3,
+   "scene": "そろばんの話",
+   "ja": "日本では、3年生と4年生でそろばんを習います。",
+   "en": "In Japan, students learn the abacus in third and fourth grade.",
+   "words": [
+    [
+     "third grade",
+     "3年生"
+    ]
+   ]
+  },
+  {
+   "id": "tools-08",
+   "lv": 3,
+   "scene": "思考ツールの話",
+   "ja": "ベン図などの思考ツールを、ブラウザで使える道具もあります。",
+   "en": "I also made a board for thinking tools, like Venn diagrams, that runs in the browser.",
+   "words": [
+    [
+     "Venn diagram",
+     "ベン図"
+    ],
+    [
+     "browser",
+     "ブラウザ"
+    ]
+   ]
+  },
+  {
+   "id": "tools-09",
+   "lv": 3,
+   "scene": "字幕の話",
+   "ja": "話したことが字幕になる道具もあります。聞きのがした子が、目で追えます。",
+   "en": "Another tool turns my speech into captions, so kids who miss something can read it.",
+   "words": [
+    [
+     "caption",
+     "字幕"
+    ],
+    [
+     "miss",
+     "聞きのがす"
+    ]
+   ]
+  },
+  {
+   "id": "tools-10",
+   "lv": 3,
+   "scene": "安全の話",
+   "ja": "個人情報が外に出ないように、通信をしないで動く道具にしています。",
+   "en": "Some tools work offline, so no personal data leaves the device.",
+   "words": [
+    [
+     "personal data",
+     "個人情報"
+    ],
+    [
+     "offline",
+     "通信なしで"
+    ]
+   ]
+  },
+  {
+   "id": "tools-11",
+   "lv": 2,
+   "scene": "見せる",
+   "ja": "全部、無料でだれでも使えます。",
+   "en": "They're all free, and anyone can use them.",
+   "words": [
+    [
+     "anyone",
+     "だれでも"
+    ]
+   ]
+  },
+  {
+   "id": "tools-12",
+   "lv": 1,
+   "scene": "見せる",
+   "ja": "いま、見せてもいいですか。",
+   "en": "Can I show you now?",
+   "words": [
+    [
+     "show",
+     "見せる"
+    ]
+   ]
+  },
+  {
+   "id": "tools-13",
+   "lv": 2,
+   "scene": "相手に聞く",
+   "ja": "授業のために、自分で何か作ったことはありますか。",
+   "en": "Have you ever made something yourself for your lessons?",
+   "words": [
+    [
+     "Have you ever 〜?",
+     "〜したことはありますか"
+    ]
+   ]
+  }
+ ]
+}

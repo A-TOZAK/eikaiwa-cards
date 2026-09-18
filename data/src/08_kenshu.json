@@ -1,0 +1,194 @@
+{
+ "id": "kenshu",
+ "group": "成果と発信",
+ "title": "研修と登壇",
+ "en": "Workshops and talks",
+ "cover": "img/cover_kenshu.jpg",
+ "lead": "先生向けの研修と、イベントづくりの話です。",
+ "cards": [
+  {
+   "id": "kenshu-01",
+   "lv": 2,
+   "scene": "紹介する",
+   "ja": "ほかの学校の先生に、研修をすることがあります。",
+   "en": "I sometimes give workshops for teachers at other schools.",
+   "words": [
+    [
+     "give a workshop",
+     "研修をする"
+    ]
+   ]
+  },
+  {
+   "id": "kenshu-02",
+   "lv": 2,
+   "scene": "紹介する",
+   "ja": "テーマは、Google Workspace と生成AIです。",
+   "en": "The topics are Google Workspace and generative AI.",
+   "words": [
+    [
+     "generative AI",
+     "生成AI"
+    ]
+   ]
+  },
+  {
+   "id": "kenshu-03",
+   "lv": 2,
+   "scene": "成果を話す",
+   "ja": "この夏は、8回の研修と登壇をしました。",
+   "en": "This summer, I gave eight workshops and talks.",
+   "words": [
+    [
+     "talk",
+     "登壇・講演"
+    ]
+   ]
+  },
+  {
+   "id": "kenshu-04",
+   "lv": 3,
+   "scene": "成果を話す",
+   "ja": "ある研修では、満足度が10点中9.5点でした。",
+   "en": "At one workshop, the average rating was nine point five out of ten.",
+   "words": [
+    [
+     "average",
+     "平均"
+    ],
+    [
+     "out of ten",
+     "10点中"
+    ]
+   ]
+  },
+  {
+   "id": "kenshu-05",
+   "lv": 3,
+   "scene": "成果を話す",
+   "ja": "でも本当に見たいのは、先生が教室で実際に試したかどうかです。",
+   "en": "But what I really care about is whether teachers actually try it in class.",
+   "words": [
+    [
+     "care about 〜",
+     "〜を大事に思う"
+    ],
+    [
+     "actually",
+     "実際に"
+    ]
+   ]
+  },
+  {
+   "id": "kenshu-06",
+   "lv": 3,
+   "scene": "成果を話す",
+   "ja": "8月には、北九州で教育イベントを開きました。実行委員会の代表でした。",
+   "en": "In August, I organized an education event in Kitakyushu. I was the head of the organizing team.",
+   "words": [
+    [
+     "organize",
+     "企画して開く"
+    ],
+    [
+     "head",
+     "代表"
+    ]
+   ]
+  },
+  {
+   "id": "kenshu-07",
+   "lv": 3,
+   "scene": "成果を話す",
+   "ja": "Google認定教育者の、レベル1とレベル2を持っています。",
+   "en": "I'm a Google Certified Educator, Level 1 and Level 2.",
+   "words": [
+    [
+     "certified",
+     "認定された"
+    ]
+   ]
+  },
+  {
+   "id": "kenshu-08",
+   "lv": 3,
+   "scene": "大事にしていること",
+   "ja": "うまくいかなかった例も、かくさずに話します。",
+   "en": "I also share what didn't work. I don't hide it.",
+   "words": [
+    [
+     "hide",
+     "かくす"
+    ],
+    [
+     "what didn't work",
+     "うまくいかなかったこと"
+    ]
+   ]
+  },
+  {
+   "id": "kenshu-09",
+   "lv": 3,
+   "scene": "大事にしていること",
+   "ja": "道具を教えるだけでは、続きません。",
+   "en": "Just teaching the tool doesn't last.",
+   "words": [
+    [
+     "last",
+     "続く"
+    ]
+   ]
+  },
+  {
+   "id": "kenshu-10",
+   "lv": 3,
+   "scene": "大事にしていること",
+   "ja": "その学校に合うやり方を、いっしょに組み立てます。",
+   "en": "We build a way that fits that school, together.",
+   "words": [
+    [
+     "fit",
+     "合う"
+    ]
+   ]
+  },
+  {
+   "id": "kenshu-11",
+   "lv": 2,
+   "scene": "気持ちを言う",
+   "ja": "人前で話すのは、いまでも少し緊張します。",
+   "en": "I still get a little nervous when I speak in front of people.",
+   "words": [
+    [
+     "in front of 〜",
+     "〜の前で"
+    ]
+   ]
+  },
+  {
+   "id": "kenshu-12",
+   "lv": 1,
+   "scene": "相手に聞く",
+   "ja": "あなたも、先生向けの研修をしますか。",
+   "en": "Do you give workshops for teachers, too?",
+   "words": []
+  },
+  {
+   "id": "kenshu-13",
+   "lv": 2,
+   "scene": "相手に聞く",
+   "ja": "あなたの国では、先生はどんな研修を受けますか。",
+   "en": "What kind of training do teachers get in your country?",
+   "words": [
+    [
+     "training",
+     "研修"
+    ],
+    [
+     "What kind of 〜?",
+     "どんな〜"
+    ]
+   ]
+  }
+ ]
+}

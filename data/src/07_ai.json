@@ -1,0 +1,191 @@
+{
+ "id": "ai",
+ "group": "実践を話す",
+ "title": "生成AIと授業",
+ "en": "AI in my teaching",
+ "cover": "img/cover_ai.jpg",
+ "lead": "Gemini などの生成AIを、授業と校務でどう使っているかです。",
+ "cards": [
+  {
+   "id": "ai-01",
+   "lv": 1,
+   "scene": "使い方を話す",
+   "ja": "授業の準備に、Gemini を使っています。",
+   "en": "I use Gemini to prepare my lessons.",
+   "words": [
+    [
+     "prepare",
+     "準備する"
+    ]
+   ]
+  },
+  {
+   "id": "ai-02",
+   "lv": 2,
+   "scene": "使い方を話す",
+   "ja": "単元の計画を立てるとき、まずAIに相談します。",
+   "en": "When I plan a unit, I talk it over with AI first.",
+   "words": [
+    [
+     "unit",
+     "単元"
+    ],
+    [
+     "talk it over",
+     "相談する"
+    ]
+   ]
+  },
+  {
+   "id": "ai-03",
+   "lv": 3,
+   "scene": "使い方を話す",
+   "ja": "地域の教材を、AIといっしょに作ったこともあります。",
+   "en": "I've made local teaching materials for social studies with AI.",
+   "words": [
+    [
+     "local",
+     "地域の"
+    ]
+   ]
+  },
+  {
+   "id": "ai-04",
+   "lv": 3,
+   "scene": "使い方を話す",
+   "ja": "3年生の社会科で、店ではたらく人の学習に使いました。",
+   "en": "I used them in third-grade social studies, in a unit about people who work in stores.",
+   "words": [
+    [
+     "store",
+     "店"
+    ]
+   ]
+  },
+  {
+   "id": "ai-05",
+   "lv": 3,
+   "scene": "使い方を話す",
+   "ja": "Gemini Notebook に学習指導要領を入れて、授業づくりに使っています。",
+   "en": "I put the national curriculum into NotebookLM and use it for lesson planning.",
+   "words": [
+    [
+     "national curriculum",
+     "学習指導要領"
+    ],
+    [
+     "lesson planning",
+     "授業づくり"
+    ]
+   ],
+   "ja_say": "ジェミニ ノートブックに学習指導要領を入れて、授業づくりに使っています。"
+  },
+  {
+   "id": "ai-06",
+   "lv": 2,
+   "scene": "公開しているもの",
+   "ja": "先生のための指示文を、3,000本以上公開しています。",
+   "en": "I've shared more than three thousand prompts for teachers.",
+   "words": [
+    [
+     "prompt",
+     "AIへの指示文"
+    ]
+   ]
+  },
+  {
+   "id": "ai-07",
+   "lv": 3,
+   "scene": "公開しているもの",
+   "ja": "学年と教科を選ぶと、そのまま使える指示文が出てきます。",
+   "en": "You choose a grade and a subject, and you get a prompt you can use right away.",
+   "words": [
+    [
+     "right away",
+     "すぐに"
+    ]
+   ]
+  },
+  {
+   "id": "ai-08",
+   "lv": 3,
+   "scene": "成果を話す",
+   "ja": "8月に、東京のGoogleのオフィスで、AIの活用アイデアを発表しました。",
+   "en": "In August, I presented my idea for using AI at Google's office in Tokyo.",
+   "words": [
+    [
+     "present",
+     "発表する"
+    ]
+   ]
+  },
+  {
+   "id": "ai-09",
+   "lv": 3,
+   "scene": "考えを話す",
+   "ja": "AIは、先生のかわりではありません。先生の時間をつくる道具です。",
+   "en": "AI doesn't replace teachers. It gives teachers time.",
+   "words": [
+    [
+     "replace",
+     "〜のかわりになる"
+    ]
+   ]
+  },
+  {
+   "id": "ai-10",
+   "lv": 3,
+   "scene": "考えを話す",
+   "ja": "できた時間を、子どものために使いたいです。",
+   "en": "I want to use that time for my students.",
+   "words": []
+  },
+  {
+   "id": "ai-11",
+   "lv": 3,
+   "scene": "考えを話す",
+   "ja": "AIの答えは、かならず自分で確かめます。",
+   "en": "I always check what AI says by myself.",
+   "words": [
+    [
+     "check",
+     "確かめる"
+    ]
+   ]
+  },
+  {
+   "id": "ai-12",
+   "lv": 2,
+   "scene": "相手に聞く",
+   "ja": "あなたの学校では、子どもがAIを使ってもいいですか。",
+   "en": "Are students allowed to use AI at your school?",
+   "words": [
+    [
+     "be allowed to 〜",
+     "〜してもよい"
+    ]
+   ]
+  },
+  {
+   "id": "ai-13",
+   "lv": 2,
+   "scene": "相手に聞く",
+   "ja": "AIについて、学校のきまりはありますか。",
+   "en": "Does your school have rules about AI?",
+   "words": [
+    [
+     "rule",
+     "きまり"
+    ]
+   ]
+  },
+  {
+   "id": "ai-14",
+   "lv": 1,
+   "scene": "相手に聞く",
+   "ja": "授業では、どんなふうにAIを使っていますか。",
+   "en": "How do you use AI in your lessons?",
+   "words": []
+  }
+ ]
+}

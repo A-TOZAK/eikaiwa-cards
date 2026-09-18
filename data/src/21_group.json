@@ -1,0 +1,171 @@
+{
+ "id": "group",
+ "group": "授業をつくる",
+ "title": "グループワークの英語",
+ "en": "Working in a group",
+ "cover": "img/cover_coplan.jpg",
+ "lead": "会場のワークショップで、同じグループの人と話すときです。",
+ "cards": [
+  {
+   "id": "group-01",
+   "lv": 1,
+   "scene": "入る",
+   "ja": "このグループに入ってもいいですか。",
+   "en": "Can I join this group?",
+   "words": [
+    [
+     "join",
+     "入る"
+    ]
+   ]
+  },
+  {
+   "id": "group-02",
+   "lv": 1,
+   "scene": "進める",
+   "ja": "まず、自己紹介からしましょうか。",
+   "en": "Shall we start with introductions?",
+   "words": [
+    [
+     "introduction",
+     "自己紹介"
+    ]
+   ]
+  },
+  {
+   "id": "group-03",
+   "lv": 2,
+   "scene": "進める",
+   "ja": "役割を決めましょう。だれが書きますか。",
+   "en": "Let's decide the roles. Who's going to write?",
+   "words": [
+    [
+     "role",
+     "役割"
+    ]
+   ]
+  },
+  {
+   "id": "group-04",
+   "lv": 1,
+   "scene": "進める",
+   "ja": "私がメモを取ります。",
+   "en": "I'll take notes.",
+   "words": [
+    [
+     "take notes",
+     "メモを取る"
+    ]
+   ]
+  },
+  {
+   "id": "group-05",
+   "lv": 2,
+   "scene": "意見を言う",
+   "ja": "私の考えを言ってもいいですか。",
+   "en": "Can I share my idea?",
+   "words": []
+  },
+  {
+   "id": "group-06",
+   "lv": 2,
+   "scene": "意見を言う",
+   "ja": "私は、こう思います。",
+   "en": "Here's what I think.",
+   "words": []
+  },
+  {
+   "id": "group-07",
+   "lv": 2,
+   "scene": "意見を聞く",
+   "ja": "あなたはどう思いますか。",
+   "en": "What do you think?",
+   "words": []
+  },
+  {
+   "id": "group-08",
+   "lv": 2,
+   "scene": "意見をつなぐ",
+   "ja": "いいですね。それに付け足すと、こうです。",
+   "en": "I like that. Let me add one thing.",
+   "words": [
+    [
+     "add",
+     "付け足す"
+    ]
+   ]
+  },
+  {
+   "id": "group-09",
+   "lv": 3,
+   "scene": "意見をつなぐ",
+   "ja": "少しちがう見方をしてもいいですか。",
+   "en": "Can I offer a slightly different view?",
+   "words": [
+    [
+     "slightly",
+     "少し"
+    ],
+    [
+     "view",
+     "見方"
+    ]
+   ]
+  },
+  {
+   "id": "group-10",
+   "lv": 2,
+   "scene": "進める",
+   "ja": "あと何分ありますか。",
+   "en": "How much time do we have left?",
+   "words": [
+    [
+     "left",
+     "残って"
+    ]
+   ]
+  },
+  {
+   "id": "group-11",
+   "lv": 2,
+   "scene": "まとめる",
+   "ja": "そろそろ、まとめましょうか。",
+   "en": "Shall we wrap up?",
+   "words": [
+    [
+     "wrap up",
+     "まとめる"
+    ]
+   ]
+  },
+  {
+   "id": "group-12",
+   "lv": 2,
+   "scene": "まとめる",
+   "ja": "画面を共有しますね。",
+   "en": "Let me share my screen.",
+   "words": [
+    [
+     "share my screen",
+     "画面を共有する"
+    ]
+   ]
+  },
+  {
+   "id": "group-13",
+   "lv": 2,
+   "scene": "発表する",
+   "ja": "私たちのグループの考えを発表します。",
+   "en": "I'd like to share our group's idea.",
+   "words": []
+  },
+  {
+   "id": "group-14",
+   "lv": 1,
+   "scene": "終わる",
+   "ja": "いっしょにできて、楽しかったです。",
+   "en": "It was fun working with you.",
+   "words": []
+  }
+ ]
+}

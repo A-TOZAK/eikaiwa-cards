@@ -1,0 +1,194 @@
+{
+ "id": "school",
+ "group": "自分を話す",
+ "title": "学級と学校のしごと",
+ "en": "My class and my job",
+ "cover": "img/cover_school.jpg",
+ "lead": "担任として、校内の係として、していることです。",
+ "cards": [
+  {
+   "id": "school-01",
+   "lv": 1,
+   "scene": "学級のこと",
+   "ja": "4年生の担任をしています。",
+   "en": "I'm a fourth-grade homeroom teacher.",
+   "words": [
+    [
+     "homeroom teacher",
+     "担任"
+    ]
+   ]
+  },
+  {
+   "id": "school-02",
+   "lv": 1,
+   "scene": "学級のこと",
+   "ja": "ほとんどの教科を自分で教えています。",
+   "en": "I teach almost every subject myself.",
+   "words": [
+    [
+     "subject",
+     "教科"
+    ],
+    [
+     "almost",
+     "ほとんど"
+    ]
+   ]
+  },
+  {
+   "id": "school-03",
+   "lv": 2,
+   "scene": "学級のこと",
+   "ja": "国語、算数、理科、社会、体育も教えます。",
+   "en": "I teach Japanese, math, science, social studies, and P.E., too.",
+   "words": [
+    [
+     "social studies",
+     "社会科"
+    ],
+    [
+     "P.E.",
+     "体育"
+    ]
+   ]
+  },
+  {
+   "id": "school-04",
+   "lv": 1,
+   "scene": "学校のしごと",
+   "ja": "学校では、ICTの担当をしています。",
+   "en": "I'm in charge of ICT at my school.",
+   "words": [
+    [
+     "be in charge of 〜",
+     "〜を担当している"
+    ]
+   ]
+  },
+  {
+   "id": "school-05",
+   "lv": 2,
+   "scene": "学校のしごと",
+   "ja": "校内研究のまとめ役もしています。",
+   "en": "I also lead the lesson research at my school.",
+   "words": [
+    [
+     "lead",
+     "まとめる・引っぱる"
+    ],
+    [
+     "lesson research",
+     "授業研究"
+    ]
+   ],
+   "note": "日本の校内研究は lesson study という名前で海外でも知られています。"
+  },
+  {
+   "id": "school-06",
+   "lv": 2,
+   "scene": "学校のしごと",
+   "ja": "日本の先生は、おたがいの授業を見合って研究します。",
+   "en": "In Japan, teachers watch each other's lessons and study them together.",
+   "words": [
+    [
+     "each other's",
+     "おたがいの"
+    ]
+   ],
+   "alt": "We call it lesson study."
+  },
+  {
+   "id": "school-07",
+   "lv": 2,
+   "scene": "自分の出発点",
+   "ja": "大学では、特別支援教育を学びました。",
+   "en": "I studied special needs education at university.",
+   "words": [
+    [
+     "special needs education",
+     "特別支援教育"
+    ]
+   ]
+  },
+  {
+   "id": "school-08",
+   "lv": 3,
+   "scene": "自分の出発点",
+   "ja": "「その子に合わせる」が、私の出発点です。",
+   "en": "Fitting the lesson to each child is where I started.",
+   "words": [
+    [
+     "fit A to B",
+     "AをBに合わせる"
+    ]
+   ]
+  },
+  {
+   "id": "school-09",
+   "lv": 2,
+   "scene": "一日の様子",
+   "ja": "子どもたちは、1人1台のChromebookを使っています。",
+   "en": "Every student has their own Chromebook.",
+   "words": [
+    [
+     "their own",
+     "自分専用の"
+    ]
+   ]
+  },
+  {
+   "id": "school-10",
+   "lv": 2,
+   "scene": "一日の様子",
+   "ja": "給食は、教室で子どもたちといっしょに食べます。",
+   "en": "I eat school lunch in the classroom with my students.",
+   "words": [
+    [
+     "school lunch",
+     "給食"
+    ]
+   ]
+  },
+  {
+   "id": "school-11",
+   "lv": 2,
+   "scene": "一日の様子",
+   "ja": "そうじも、子どもたちが自分たちでします。",
+   "en": "The students clean the school by themselves, too.",
+   "words": [
+    [
+     "by themselves",
+     "自分たちで"
+    ]
+   ],
+   "note": "そうじの時間は、海外の先生によく驚かれる話題です。"
+  },
+  {
+   "id": "school-12",
+   "lv": 3,
+   "scene": "気持ちを言う",
+   "ja": "いそがしいですが、この仕事が好きです。",
+   "en": "It's a busy job, but I really love it.",
+   "words": [
+    [
+     "busy",
+     "いそがしい"
+    ]
+   ]
+  },
+  {
+   "id": "school-13",
+   "lv": 1,
+   "scene": "相手に聞く",
+   "ja": "あなたの学校の一日は、どんな感じですか。",
+   "en": "What is a day at your school like?",
+   "words": [
+    [
+     "What is 〜 like?",
+     "〜はどんな感じですか"
+    ]
+   ]
+  }
+ ]
+}

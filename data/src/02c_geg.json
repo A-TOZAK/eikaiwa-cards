@@ -1,0 +1,208 @@
+{
+ "id": "geg",
+ "group": "自分を話す",
+ "title": "GEG Chikuho のこと",
+ "en": "My community, GEG Chikuho",
+ "cover": "img/cover_geg.jpg",
+ "lead": "共同リーダーをしている先生のコミュニティの話です。",
+ "cards": [
+  {
+   "id": "geg-01",
+   "lv": 1,
+   "scene": "紹介する",
+   "ja": "GEG Chikuho の共同リーダーをしています。",
+   "en": "I'm a co-leader of GEG Chikuho.",
+   "words": [
+    [
+     "co-leader",
+     "共同リーダー"
+    ]
+   ]
+  },
+  {
+   "id": "geg-02",
+   "lv": 2,
+   "scene": "紹介する",
+   "ja": "筑豊は、福岡県のまんなかにある地域です。",
+   "en": "Chikuho is an area in the middle of Fukuoka.",
+   "words": [
+    [
+     "area",
+     "地域"
+    ],
+    [
+     "in the middle of 〜",
+     "〜のまんなかに"
+    ]
+   ]
+  },
+  {
+   "id": "geg-03",
+   "lv": 2,
+   "scene": "紹介する",
+   "ja": "むかしは、石炭の町として栄えました。",
+   "en": "It used to be a big coal mining area.",
+   "words": [
+    [
+     "used to be 〜",
+     "むかしは〜だった"
+    ],
+    [
+     "coal mining",
+     "石炭をほること"
+    ]
+   ]
+  },
+  {
+   "id": "geg-04",
+   "lv": 2,
+   "scene": "紹介する",
+   "ja": "2021年の8月に立ち上げて、5年目になります。",
+   "en": "We started in August 2021, so this is our fifth year.",
+   "words": [
+    [
+     "fifth year",
+     "5年目"
+    ]
+   ]
+  },
+  {
+   "id": "geg-05",
+   "lv": 1,
+   "scene": "紹介する",
+   "ja": "いま、メンバーは200人をこえています。",
+   "en": "We have more than 200 members now.",
+   "words": [
+    [
+     "more than 〜",
+     "〜より多い"
+    ]
+   ]
+  },
+  {
+   "id": "geg-06",
+   "lv": 2,
+   "scene": "活動を話す",
+   "ja": "授業のアイデアを持ちよって、おたがいに学んでいます。",
+   "en": "We share classroom ideas and learn from each other.",
+   "words": [
+    [
+     "share",
+     "持ちよる・分け合う"
+    ]
+   ]
+  },
+  {
+   "id": "geg-07",
+   "lv": 2,
+   "scene": "活動を話す",
+   "ja": "小学校、中学校、高校の先生がいっしょに集まります。",
+   "en": "Elementary, middle, and high school teachers all get together.",
+   "words": [
+    [
+     "get together",
+     "集まる"
+    ]
+   ]
+  },
+  {
+   "id": "geg-08",
+   "lv": 2,
+   "scene": "活動を話す",
+   "ja": "12月に、5周年のイベントを開きます。",
+   "en": "We're holding our fifth anniversary event in December.",
+   "words": [
+    [
+     "anniversary",
+     "〜周年"
+    ],
+    [
+     "hold an event",
+     "イベントを開く"
+    ]
+   ]
+  },
+  {
+   "id": "geg-09",
+   "lv": 3,
+   "scene": "活動を話す",
+   "ja": "九州のほかのGEGと、いっしょに開きます。",
+   "en": "We're hosting it together with other GEGs in Kyushu.",
+   "words": [
+    [
+     "host",
+     "主催する"
+    ]
+   ]
+  },
+  {
+   "id": "geg-10",
+   "lv": 3,
+   "scene": "活動を話す",
+   "ja": "イベントの名前は、Mining Possibility です。可能性をほり出す、という意味です。",
+   "en": "The event is called Mining Possibility. It means digging up possibilities.",
+   "words": [
+    [
+     "dig up",
+     "ほり出す"
+    ],
+    [
+     "possibility",
+     "可能性"
+    ]
+   ],
+   "ja_say": "イベントの名前は、マイニング ポシビリティです。可能性をほり出す、という意味です。"
+  },
+  {
+   "id": "geg-11",
+   "lv": 2,
+   "scene": "活動を話す",
+   "ja": "沖縄や熊本のGEGのイベントも手伝いました。",
+   "en": "I've also helped with GEG events in Okinawa and Kumamoto.",
+   "words": [
+    [
+     "help with 〜",
+     "〜を手伝う"
+    ]
+   ]
+  },
+  {
+   "id": "geg-12",
+   "lv": 1,
+   "scene": "相手に聞く",
+   "ja": "あなたのGEGは、どんな活動をしていますか。",
+   "en": "What does your GEG do?",
+   "words": []
+  },
+  {
+   "id": "geg-13",
+   "lv": 1,
+   "scene": "相手に聞く",
+   "ja": "どのくらいの回数で集まっていますか。",
+   "en": "How often do you meet?",
+   "words": [
+    [
+     "How often 〜?",
+     "どのくらいの回数で〜"
+    ]
+   ]
+  },
+  {
+   "id": "geg-14",
+   "lv": 3,
+   "scene": "さそう",
+   "ja": "いつか、GEGどうしでオンラインの交流会をしませんか。",
+   "en": "Why don't we have an online meetup between our GEGs someday?",
+   "words": [
+    [
+     "meetup",
+     "交流会"
+    ],
+    [
+     "Why don't we 〜?",
+     "〜しませんか"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "id": "hyoka",
+ "group": "教育を語る",
+ "title": "評価の話",
+ "en": "Talking about assessment",
+ "cover": "img/cover_coplan.jpg",
+ "lead": "評価のしかたをくらべ合うときの言い方です。",
+ "cards": [
+  {
+   "id": "hyoka-01",
+   "lv": 2,
+   "scene": "日本のしくみ",
+   "ja": "日本では、3つの観点で評価します。",
+   "en": "In Japan, we assess students on three points.",
+   "words": [
+    [
+     "assess",
+     "評価する"
+    ]
+   ]
+  },
+  {
+   "id": "hyoka-02",
+   "lv": 3,
+   "scene": "日本のしくみ",
+   "ja": "知識と技能、考える力、そして学びにむかう態度です。",
+   "en": "Knowledge and skills, thinking, and attitude toward learning.",
+   "words": [
+    [
+     "knowledge",
+     "知識"
+    ],
+    [
+     "attitude",
+     "態度"
+    ]
+   ]
+  },
+  {
+   "id": "hyoka-03",
+   "lv": 2,
+   "scene": "日本のしくみ",
+   "ja": "通知表は、年に2回か3回わたします。",
+   "en": "We give report cards two or three times a year.",
+   "words": [
+    [
+     "report card",
+     "通知表"
+    ]
+   ]
+  },
+  {
+   "id": "hyoka-04",
+   "lv": 3,
+   "scene": "日本のしくみ",
+   "ja": "小学校では、単元ごとのテストが多いです。",
+   "en": "In elementary school, we usually give a test at the end of each unit.",
+   "words": [
+    [
+     "unit",
+     "単元"
+    ]
+   ]
+  },
+  {
+   "id": "hyoka-05",
+   "lv": 3,
+   "scene": "自分の考え",
+   "ja": "点数だけでなく、学びの途中を見たいと思っています。",
+   "en": "I want to look at the learning process, not just the score.",
+   "words": [
+    [
+     "process",
+     "途中・過程"
+    ],
+    [
+     "score",
+     "点数"
+    ]
+   ]
+  },
+  {
+   "id": "hyoka-06",
+   "lv": 3,
+   "scene": "自分の考え",
+   "ja": "子どもが自分でふりかえる時間を、大事にしています。",
+   "en": "I value the time when kids reflect on their own learning.",
+   "words": [
+    [
+     "value",
+     "大事にする"
+    ],
+    [
+     "reflect on 〜",
+     "〜をふりかえる"
+    ]
+   ]
+  },
+  {
+   "id": "hyoka-07",
+   "lv": 3,
+   "scene": "自分の考え",
+   "ja": "評価の基準を、先に子どもに見せるようにしています。",
+   "en": "I show the students the rubric before they start.",
+   "words": [
+    [
+     "rubric",
+     "評価の基準の表"
+    ]
+   ]
+  },
+  {
+   "id": "hyoka-08",
+   "lv": 3,
+   "scene": "なやみ",
+   "ja": "評価には、とても時間がかかります。",
+   "en": "Grading takes a lot of time.",
+   "words": [
+    [
+     "grading",
+     "成績をつけること"
+    ]
+   ]
+  },
+  {
+   "id": "hyoka-09",
+   "lv": 3,
+   "scene": "なやみ",
+   "ja": "Googleフォームで自動採点にして、時間をつくっています。",
+   "en": "I use auto-grading in Google Forms to save time.",
+   "words": [
+    [
+     "auto-grading",
+     "自動採点"
+    ],
+    [
+     "save time",
+     "時間をつくる"
+    ]
+   ]
+  },
+  {
+   "id": "hyoka-10",
+   "lv": 3,
+   "scene": "なやみ",
+   "ja": "AIでコメントの下書きを作る先生もいます。私は最後に必ず自分で直します。",
+   "en": "Some teachers draft comments with AI. I always rewrite them myself at the end.",
+   "words": [
+    [
+     "draft",
+     "下書きする"
+    ],
+    [
+     "rewrite",
+     "書き直す"
+    ]
+   ]
+  },
+  {
+   "id": "hyoka-11",
+   "lv": 2,
+   "scene": "相手に聞く",
+   "ja": "あなたの国では、どうやって成績をつけますか。",
+   "en": "How do you grade students in your country?",
+   "words": [
+    [
+     "grade",
+     "成績をつける"
+    ]
+   ]
+  },
+  {
+   "id": "hyoka-12",
+   "lv": 2,
+   "scene": "相手に聞く",
+   "ja": "テストは多いですか。",
+   "en": "Do your students have a lot of tests?",
+   "words": []
+  },
+  {
+   "id": "hyoka-13",
+   "lv": 3,
+   "scene": "相手に聞く",
+   "ja": "プロジェクト型の学習は、どうやって評価していますか。",
+   "en": "How do you assess project-based learning?",
+   "words": []
+  }
+ ]
+}

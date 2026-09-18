@@ -1,0 +1,177 @@
+{
+ "id": "google",
+ "group": "教育を語る",
+ "title": "Google の道具の話",
+ "en": "Talking Google tools",
+ "cover": "img/cover_coplan.jpg",
+ "lead": "Google for Education の道具を、どう使っているかです。",
+ "cards": [
+  {
+   "id": "google-01",
+   "lv": 1,
+   "scene": "使い方を話す",
+   "ja": "うちの学校は、Google Workspace を使っています。",
+   "en": "Our school uses Google Workspace.",
+   "words": []
+  },
+  {
+   "id": "google-02",
+   "lv": 2,
+   "scene": "使い方を話す",
+   "ja": "課題は、Classroom で配って集めます。",
+   "en": "I give out and collect assignments in Classroom.",
+   "words": [
+    [
+     "assignment",
+     "課題"
+    ],
+    [
+     "collect",
+     "集める"
+    ]
+   ]
+  },
+  {
+   "id": "google-03",
+   "lv": 2,
+   "scene": "使い方を話す",
+   "ja": "子どもたちは、1つのスライドを同時に編集します。",
+   "en": "The kids edit one Slides file at the same time.",
+   "words": [
+    [
+     "at the same time",
+     "同時に"
+    ]
+   ]
+  },
+  {
+   "id": "google-04",
+   "lv": 2,
+   "scene": "使い方を話す",
+   "ja": "フォームで、授業のふりかえりを集めています。",
+   "en": "I collect lesson reflections with Forms.",
+   "words": [
+    [
+     "reflection",
+     "ふりかえり"
+    ]
+   ]
+  },
+  {
+   "id": "google-05",
+   "lv": 3,
+   "scene": "使い方を話す",
+   "ja": "スプレッドシートで、ふりかえりを一覧にして読みます。",
+   "en": "Then I read them all in one Sheets file.",
+   "words": []
+  },
+  {
+   "id": "google-06",
+   "lv": 3,
+   "scene": "校務の話",
+   "ja": "職員会議の資料も、紙からドライブに変えました。",
+   "en": "We moved our staff meeting papers from paper to Drive.",
+   "words": [
+    [
+     "staff meeting",
+     "職員会議"
+    ]
+   ]
+  },
+  {
+   "id": "google-07",
+   "lv": 3,
+   "scene": "校務の話",
+   "ja": "Apps Script で、小さな自動化をしています。",
+   "en": "I do small automations with Apps Script.",
+   "words": [
+    [
+     "automation",
+     "自動化"
+    ]
+   ]
+  },
+  {
+   "id": "google-08",
+   "lv": 2,
+   "scene": "気に入っているもの",
+   "ja": "いちばん好きな道具は、どれですか。",
+   "en": "Which tool is your favorite?",
+   "words": [
+    [
+     "favorite",
+     "いちばん好きな"
+    ]
+   ]
+  },
+  {
+   "id": "google-09",
+   "lv": 3,
+   "scene": "気に入っているもの",
+   "ja": "私は Gemini Notebook が好きです。資料をもとに答えてくれるからです。",
+   "en": "I like NotebookLM, because it answers from my own sources.",
+   "words": [
+    [
+     "source",
+     "資料"
+    ]
+   ],
+   "ja_say": "私はジェミニ ノートブックが好きです。資料をもとに答えてくれるからです。"
+  },
+  {
+   "id": "google-10",
+   "lv": 3,
+   "scene": "なやみ",
+   "ja": "先生によって、使い方の差が大きいです。",
+   "en": "There's a big gap between teachers in how much they use it.",
+   "words": [
+    [
+     "gap",
+     "差"
+    ]
+   ]
+  },
+  {
+   "id": "google-11",
+   "lv": 3,
+   "scene": "なやみ",
+   "ja": "苦手な先生を、どう支えていますか。",
+   "en": "How do you support teachers who aren't comfortable with tech?",
+   "words": [
+    [
+     "be comfortable with 〜",
+     "〜に慣れている"
+    ]
+   ]
+  },
+  {
+   "id": "google-12",
+   "lv": 2,
+   "scene": "相手に聞く",
+   "ja": "子どもたちは、端末を家に持ち帰りますか。",
+   "en": "Do your students take their devices home?",
+   "words": [
+    [
+     "device",
+     "端末"
+    ]
+   ]
+  },
+  {
+   "id": "google-13",
+   "lv": 2,
+   "scene": "相手に聞く",
+   "ja": "何年生から、端末を使い始めますか。",
+   "en": "What grade do students start using devices?",
+   "words": []
+  },
+  {
+   "id": "google-14",
+   "lv": 3,
+   "scene": "相手に聞く",
+   "ja": "認定トレーナーやイノベーターの資格は、持っていますか。",
+   "en": "Are you a Certified Trainer or Innovator?",
+   "words": []
+  }
+ ]
+}

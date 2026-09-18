@@ -1,0 +1,196 @@
+{
+ "id": "note",
+ "group": "成果と発信",
+ "title": "発信していること",
+ "en": "What I write and share",
+ "cover": "img/cover_note.jpg",
+ "lead": "note などで書いていることの話です。",
+ "cards": [
+  {
+   "id": "note-01",
+   "lv": 2,
+   "scene": "紹介する",
+   "ja": "note というサイトに、授業や学校の話を書いています。",
+   "en": "I write about my lessons and school life on a site called note.",
+   "words": [
+    [
+     "school life",
+     "学校での毎日"
+    ]
+   ],
+   "ja_say": "ノートというサイトに、授業や学校の話を書いています。"
+  },
+  {
+   "id": "note-02",
+   "lv": 2,
+   "scene": "紹介する",
+   "ja": "これまでに、100本以上の記事を書きました。",
+   "en": "I've written more than a hundred articles so far.",
+   "words": [
+    [
+     "article",
+     "記事"
+    ],
+    [
+     "so far",
+     "これまでに"
+    ]
+   ]
+  },
+  {
+   "id": "note-03",
+   "lv": 2,
+   "scene": "中身を話す",
+   "ja": "よく書くのは、学校の仕事をデジタルで楽にする話です。",
+   "en": "I often write about making school work easier with digital tools.",
+   "words": [
+    [
+     "make 〜 easier",
+     "〜を楽にする"
+    ]
+   ]
+  },
+  {
+   "id": "note-04",
+   "lv": 3,
+   "scene": "中身を話す",
+   "ja": "職員室をデジタル化していった道のりを書いた記事があります。",
+   "en": "One article is about how our staff room went digital, step by step.",
+   "words": [
+    [
+     "staff room",
+     "職員室"
+    ],
+    [
+     "step by step",
+     "一歩ずつ"
+    ]
+   ]
+  },
+  {
+   "id": "note-05",
+   "lv": 3,
+   "scene": "中身を話す",
+   "ja": "「あの書類どこ？」をなくすしくみを、Googleチャットで作りました。",
+   "en": "I built a small system with Google Chat, so teachers can find documents quickly.",
+   "words": [
+    [
+     "document",
+     "書類"
+    ],
+    [
+     "quickly",
+     "すぐに"
+    ]
+   ]
+  },
+  {
+   "id": "note-06",
+   "lv": 3,
+   "scene": "中身を話す",
+   "ja": "書くことが苦手な子に、教室でしてきたことも書きました。",
+   "en": "I also wrote about how I support kids who find writing hard.",
+   "words": [
+    [
+     "find 〜 hard",
+     "〜をむずかしいと感じる"
+    ]
+   ]
+  },
+  {
+   "id": "note-07",
+   "lv": 3,
+   "scene": "なぜ書くか",
+   "ja": "自分が困ったことは、きっとほかの先生も困っています。",
+   "en": "If I had trouble with something, other teachers probably do, too.",
+   "words": [
+    [
+     "have trouble with 〜",
+     "〜で困る"
+    ],
+    [
+     "probably",
+     "たぶん"
+    ]
+   ]
+  },
+  {
+   "id": "note-08",
+   "lv": 3,
+   "scene": "なぜ書くか",
+   "ja": "だから、作ったものは、直せる形でそのまま公開します。",
+   "en": "So I share what I make in a form that anyone can edit.",
+   "words": [
+    [
+     "edit",
+     "手直しする"
+    ]
+   ]
+  },
+  {
+   "id": "note-09",
+   "lv": 3,
+   "scene": "なぜ書くか",
+   "ja": "失敗したことも、そのまま書くようにしています。",
+   "en": "I try to write honestly about my failures, too.",
+   "words": [
+    [
+     "failure",
+     "失敗"
+    ],
+    [
+     "honestly",
+     "正直に"
+    ]
+   ]
+  },
+  {
+   "id": "note-10",
+   "lv": 2,
+   "scene": "ほかの発信",
+   "ja": "X と Instagram と YouTube でも発信しています。",
+   "en": "I'm also on X, Instagram, and YouTube.",
+   "words": []
+  },
+  {
+   "id": "note-11",
+   "lv": 2,
+   "scene": "つながる",
+   "ja": "記事は日本語ですが、翻訳で読めると思います。",
+   "en": "My articles are in Japanese, but I think you can read them with a translator.",
+   "words": [
+    [
+     "translator",
+     "翻訳の道具"
+    ]
+   ]
+  },
+  {
+   "id": "note-12",
+   "lv": 1,
+   "scene": "つながる",
+   "ja": "SNSは何か使っていますか。つながりましょう。",
+   "en": "Are you on any social media? Let's connect.",
+   "words": [
+    [
+     "social media",
+     "SNS"
+    ]
+   ],
+   "note": "英語では SNS と言わず、social media と言います。"
+  },
+  {
+   "id": "note-13",
+   "lv": 2,
+   "scene": "相手に聞く",
+   "ja": "あなたは、授業のことをどこかに書いていますか。",
+   "en": "Do you write about your teaching anywhere?",
+   "words": [
+    [
+     "anywhere",
+     "どこかに"
+    ]
+   ]
+  }
+ ]
+}

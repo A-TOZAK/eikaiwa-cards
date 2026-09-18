@@ -1,0 +1,186 @@
+{
+ "id": "hogosha",
+ "group": "教育を語る",
+ "title": "保護者とのやりとり",
+ "en": "Working with parents",
+ "cover": "img/cover_coplan.jpg",
+ "lead": "保護者との関係づくりを話すときの言い方です。どれも一般の話です。",
+ "cards": [
+  {
+   "id": "hogosha-01",
+   "lv": 2,
+   "scene": "日本のしくみ",
+   "ja": "年に数回、保護者と個人面談をします。",
+   "en": "We have parent-teacher meetings a few times a year.",
+   "words": [
+    [
+     "parent-teacher meeting",
+     "保護者との面談"
+    ]
+   ]
+  },
+  {
+   "id": "hogosha-02",
+   "lv": 2,
+   "scene": "日本のしくみ",
+   "ja": "授業参観の日には、保護者が授業を見に来ます。",
+   "en": "On open school days, parents come to watch our lessons.",
+   "words": [
+    [
+     "open school day",
+     "授業参観の日"
+    ]
+   ]
+  },
+  {
+   "id": "hogosha-03",
+   "lv": 2,
+   "scene": "日本のしくみ",
+   "ja": "学級通信で、クラスの様子を伝えています。",
+   "en": "I send a class newsletter to tell parents about our class.",
+   "words": [
+    [
+     "newsletter",
+     "おたより・通信"
+    ]
+   ]
+  },
+  {
+   "id": "hogosha-04",
+   "lv": 3,
+   "scene": "日本のしくみ",
+   "ja": "いまは、連絡の多くがアプリやメールになりました。",
+   "en": "These days, most messages go through an app or email.",
+   "words": [
+    [
+     "these days",
+     "このごろは"
+    ]
+   ]
+  },
+  {
+   "id": "hogosha-05",
+   "lv": 3,
+   "scene": "大事にしていること",
+   "ja": "まず、保護者の話を最後まで聞くようにしています。",
+   "en": "First, I try to listen to parents all the way through.",
+   "words": [
+    [
+     "all the way through",
+     "最後まで"
+    ]
+   ]
+  },
+  {
+   "id": "hogosha-06",
+   "lv": 3,
+   "scene": "大事にしていること",
+   "ja": "困ったことより先に、その子のよいところを伝えます。",
+   "en": "I tell them the good things about their child before the problems.",
+   "words": [
+    [
+     "before 〜",
+     "〜より先に"
+    ]
+   ]
+  },
+  {
+   "id": "hogosha-07",
+   "lv": 3,
+   "scene": "大事にしていること",
+   "ja": "保護者と先生は、同じチームだと思っています。",
+   "en": "I think parents and teachers are on the same team.",
+   "words": [
+    [
+     "on the same team",
+     "同じチーム"
+    ]
+   ]
+  },
+  {
+   "id": "hogosha-08",
+   "lv": 3,
+   "scene": "大事にしていること",
+   "ja": "信頼は、小さな連絡のつみ重ねでできると思います。",
+   "en": "I think trust is built through small, regular messages.",
+   "words": [
+    [
+     "trust",
+     "信頼"
+    ],
+    [
+     "regular",
+     "こまめな"
+    ]
+   ]
+  },
+  {
+   "id": "hogosha-09",
+   "lv": 3,
+   "scene": "なやみ",
+   "ja": "保護者への対応に、なやむ先生は多いです。",
+   "en": "Many teachers find it hard to deal with parents' requests.",
+   "words": [
+    [
+     "deal with 〜",
+     "〜に対応する"
+    ],
+    [
+     "request",
+     "要望"
+    ]
+   ]
+  },
+  {
+   "id": "hogosha-10",
+   "lv": 3,
+   "scene": "なやみ",
+   "ja": "1人でかかえないで、学校のチームで対応します。",
+   "en": "We don't handle it alone. We work as a school team.",
+   "words": [
+    [
+     "handle",
+     "対応する"
+    ],
+    [
+     "alone",
+     "1人で"
+    ]
+   ]
+  },
+  {
+   "id": "hogosha-11",
+   "lv": 2,
+   "scene": "相手に聞く",
+   "ja": "あなたの国では、保護者とどうやって連絡を取りますか。",
+   "en": "How do you communicate with parents in your country?",
+   "words": [
+    [
+     "communicate with 〜",
+     "〜と連絡を取る"
+    ]
+   ]
+  },
+  {
+   "id": "hogosha-12",
+   "lv": 2,
+   "scene": "相手に聞く",
+   "ja": "保護者は、学校の活動によく参加しますか。",
+   "en": "Do parents often join school activities?",
+   "words": [
+    [
+     "join",
+     "参加する"
+    ]
+   ]
+  },
+  {
+   "id": "hogosha-13",
+   "lv": 3,
+   "scene": "相手に聞く",
+   "ja": "AIを授業で使うことを、保護者はどう思っていますか。",
+   "en": "What do parents think about using AI in class?",
+   "words": []
+  }
+ ]
+}
