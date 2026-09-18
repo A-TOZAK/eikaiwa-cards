@@ -1,0 +1,22 @@
+{
+  "id": "vision",
+  "group": "自分を話す",
+  "title": "私のやりたいこと",
+  "en": "What I want to do",
+  "cover": "img/cover_vision.jpg",
+  "lead": "2026年9月18日の口述を、そのまま英語にしました。",
+  "cards": [
+    {"id": "vision-01", "lv": 2, "scene": "思いを話す", "ja": "教育って、もっと楽しくいろいろやれると思うんです。", "en": "I think education can be a lot more fun.", "words": [["education", "教育"], ["a lot more", "もっとずっと"]]},
+    {"id": "vision-02", "lv": 2, "scene": "思いを話す", "ja": "台湾や韓国の先生たちと、いっしょに授業をつくりたいです。", "en": "I want to plan lessons together with teachers from Taiwan and Korea.", "words": [["plan lessons", "授業を計画する"]]},
+    {"id": "vision-03", "lv": 2, "scene": "思いを話す", "ja": "教材もいっしょに作ってみたいです。", "en": "I'd love to make teaching materials together, too.", "words": [["teaching materials", "教材"], ["I'd love to 〜", "ぜひ〜したい"]]},
+    {"id": "vision-04", "lv": 3, "scene": "思いを話す", "ja": "そうすれば、子どもたちの世界がもっと広がると思います。", "en": "I believe it would open up the world for our kids.", "words": [["open up", "広げる"], ["believe", "信じている"]]},
+    {"id": "vision-05", "lv": 3, "scene": "思いを話す", "ja": "私たち大人の世界も広がります。", "en": "It would open up our world as adults, too.", "words": [["adults", "大人"]]},
+    {"id": "vision-06", "lv": 3, "scene": "思いを話す", "ja": "学校を、もっと社会とつなげたいです。", "en": "I want to connect school more closely with society.", "words": [["connect A with B", "AをBとつなぐ"], ["society", "社会"]]},
+    {"id": "vision-07", "lv": 2, "scene": "思いを話す", "ja": "教室を、世界ともつなげたいです。", "en": "I want my classroom to be connected to the world.", "words": [["classroom", "教室"], ["be connected to 〜", "〜とつながっている"]]},
+    {"id": "vision-08", "lv": 3, "scene": "思いを話す", "ja": "プロジェクト型の学習に、本気で取り組みたいです。", "en": "I want to go all in on project-based learning.", "alt": "I really want to do project-based learning.", "words": [["go all in on 〜", "〜に本気で取り組む"], ["project-based learning", "プロジェクト型の学習"]]},
+    {"id": "vision-09", "lv": 3, "scene": "思いを話す", "ja": "本当に楽しくて、価値のあるものを作っていける気がします。", "en": "I feel we can create something really fun and valuable.", "words": [["create", "作り出す"], ["valuable", "価値のある"]]},
+    {"id": "vision-10", "lv": 3, "scene": "思いを話す", "ja": "そのための環境を、自分の手でつくりたいです。", "en": "I want to build that kind of environment myself.", "words": [["environment", "環境"], ["myself", "自分で"]]},
+    {"id": "vision-11", "lv": 3, "scene": "大事にしていること", "ja": "先生にゆとりがあれば、授業はもっとよくなります。", "en": "When teachers have breathing room, lessons get better.", "words": [["breathing room", "ゆとり"]], "note": "「ゆとり」は一語では訳せません。breathing room は、息をつける余裕という言い方です。"},
+    {"id": "vision-12", "lv": 3, "scene": "大事にしていること", "ja": "先生が、明日の授業をまた楽しみにできるようにしたいです。", "en": "I want teachers to look forward to tomorrow's lessons again.", "words": [["look forward to 〜", "〜を楽しみにする"]]}
+  ]
+}

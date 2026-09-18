@@ -1,0 +1,22 @@
+{
+  "id": "hello",
+  "group": "出会う",
+  "title": "はじめまして",
+  "en": "First hello",
+  "cover": "img/cover_hello.jpg",
+  "lead": "会場で、となりの人に話しかける最初の1分です。",
+  "cards": [
+    {"id": "hello-01", "lv": 1, "scene": "席をさがすとき", "ja": "ここ、すわってもいいですか。", "en": "Hi! Can I sit here?", "words": [["sit", "すわる"]], "note": "返事は Sure, go ahead! が多いです。"},
+    {"id": "hello-02", "lv": 1, "scene": "名前を言う", "ja": "アキです。日本の福岡から来ました。", "en": "I'm Aki. I'm from Fukuoka, in Japan.", "words": [["I'm from 〜", "〜から来ました"]]},
+    {"id": "hello-03", "lv": 1, "scene": "名前を言う", "ja": "外﨑顯博といいます。アキと呼んでください。", "ja_say": "とざきあきひろといいます。アキと呼んでください。", "en": "I'm Akihiro Tozaki. Please call me Aki.", "words": [["call", "呼ぶ"]], "note": "フルネームを一度言ってから、呼び名を渡します。"},
+    {"id": "hello-04", "lv": 1, "scene": "相手のことを聞く", "ja": "何を教えているんですか。", "en": "So, what do you teach?", "words": [["teach", "教える"]], "note": "先生どうしなら、このひとことで話が始まります。"},
+    {"id": "hello-05", "lv": 1, "scene": "自分のことを言う", "ja": "小学校で4年生を教えています。", "en": "I teach fourth grade at an elementary school.", "words": [["fourth grade", "4年生"], ["elementary school", "小学校"]]},
+    {"id": "hello-06", "lv": 2, "scene": "自分のことを言う", "ja": "公立の小学校で教えて、今年で10年になります。", "en": "I've been teaching at a public elementary school for ten years.", "words": [["public", "公立の"], ["I've been teaching", "ずっと教えてきました"]]},
+    {"id": "hello-07", "lv": 1, "scene": "相手のことを聞く", "ja": "Energizerは、はじめてですか。", "ja_say": "エナジャイザーは、はじめてですか。", "en": "Is this your first Energizer?", "words": [["first", "はじめての"]]},
+    {"id": "hello-08", "lv": 1, "scene": "気持ちを言う", "ja": "私もです。少し緊張しています。", "en": "Me too. I'm a little nervous.", "words": [["nervous", "緊張している"], ["a little", "少し"]]},
+    {"id": "hello-09", "lv": 1, "scene": "相手のことを聞く", "ja": "どちらから来られたんですか。", "en": "Where are you from?", "alt": "Which part of Korea are you from?", "note": "国が分かっているときは、下の言い方で町をたずねると話が広がります。"},
+    {"id": "hello-10", "lv": 2, "scene": "助けてもらう", "ja": "英語は勉強中です。もう少しゆっくり話してもらえますか。", "en": "I'm still learning English. Could you speak a little slower?", "words": [["still", "まだ"], ["slower", "もっとゆっくり"]]},
+    {"id": "hello-11", "lv": 1, "scene": "助けてもらう", "ja": "すみません、もう一度言ってもらえますか。", "en": "Sorry, could you say that again?", "words": [["again", "もう一度"]], "note": "聞き取れないのはふつうのことです。何度使ってもかまいません。"},
+    {"id": "hello-12", "lv": 1, "scene": "気持ちを言う", "ja": "お会いできてうれしいです。いっしょに楽しみましょう。", "en": "It's great to meet you. Let's enjoy this together!", "words": [["together", "いっしょに"]]}
+  ]
+}

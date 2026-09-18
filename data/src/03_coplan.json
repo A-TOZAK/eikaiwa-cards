@@ -1,0 +1,23 @@
+{
+  "id": "coplan",
+  "group": "授業をつくる",
+  "title": "いっしょに授業をつくる",
+  "en": "Planning a lesson together",
+  "cover": "img/cover_coplan.jpg",
+  "lead": "声をかけるところから、計画の最初の打ち合わせまでです。",
+  "cards": [
+    {"id": "coplan-01", "lv": 2, "scene": "さそう", "ja": "うちのクラスと、いっしょに授業をしませんか。", "en": "Would you like to do a joint lesson with my class?", "words": [["joint lesson", "合同の授業"]]},
+    {"id": "coplan-02", "lv": 2, "scene": "さそう", "ja": "まずは小さく、1時間だけやってみませんか。", "en": "How about we start small, with just one lesson?", "words": [["start small", "小さく始める"]]},
+    {"id": "coplan-03", "lv": 1, "scene": "相手のクラスを知る", "ja": "子どもたちは何年生ですか。クラスは何人ですか。", "en": "What grade are your students in? How many are in your class?", "words": [["grade", "学年"]]},
+    {"id": "coplan-04", "lv": 1, "scene": "中身を決める", "ja": "テーマは何にしましょうか。", "en": "What should our topic be?", "words": [["topic", "テーマ"]]},
+    {"id": "coplan-05", "lv": 2, "scene": "中身を決める", "ja": "先に、学習のめあてを決めましょう。", "en": "Let's decide on the learning goal first.", "words": [["learning goal", "学習のめあて"], ["decide on 〜", "〜を決める"]]},
+    {"id": "coplan-06", "lv": 3, "scene": "中身を決める", "ja": "終わったときに、子どもたちに何ができるようになっていてほしいですか。", "en": "What do we want the kids to be able to do by the end?", "words": [["be able to 〜", "〜できる"], ["by the end", "終わるまでに"]]},
+    {"id": "coplan-07", "lv": 2, "scene": "中身を決める", "ja": "おたがいの町を紹介し合うのはどうでしょう。", "en": "How about having the kids introduce their towns to each other?", "words": [["introduce", "紹介する"], ["each other", "おたがいに"]]},
+    {"id": "coplan-08", "lv": 1, "scene": "段取りを決める", "ja": "時差はどれくらいありますか。", "en": "What's the time difference between us?", "words": [["time difference", "時差"]], "note": "韓国は日本と同じ時刻です。台湾は日本より1時間おそいです。"},
+    {"id": "coplan-09", "lv": 2, "scene": "段取りを決める", "ja": "Google Meetでつなぎましょう。録画を送り合うのでもいいですね。", "en": "Let's connect on Google Meet. Or we could just exchange recorded videos.", "words": [["exchange", "交換する"], ["recorded", "録画した"]]},
+    {"id": "coplan-10", "lv": 2, "scene": "段取りを決める", "ja": "スライドを共有するので、いっしょに作りましょう。", "en": "I'll share a Google Slides file so we can build it together.", "words": [["share", "共有する"]]},
+    {"id": "coplan-11", "lv": 2, "scene": "段取りを決める", "ja": "子どもたちが使う英語は、やさしいものにしましょう。", "en": "Let's keep the English simple for the kids.", "words": [["keep 〜 simple", "〜をやさしくしておく"]]},
+    {"id": "coplan-12", "lv": 2, "scene": "ふりかえる", "ja": "授業のあとで、いっしょにふりかえりをしましょう。", "en": "After the lesson, let's reflect on it together.", "words": [["reflect on 〜", "〜をふりかえる"]]},
+    {"id": "coplan-13", "lv": 1, "scene": "次につなぐ", "ja": "来月、オンラインで打ち合わせをしませんか。", "en": "Can we meet online next month to plan it?", "words": [["meet online", "オンラインで会う"]]}
+  ]
+}
