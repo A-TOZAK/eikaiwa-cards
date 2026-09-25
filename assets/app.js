@@ -79,7 +79,10 @@
         <div class="bar"><i style="width:${pct(n, cards.length)}%"></i></div>
         <button class="listen-all" data-go="#/l/all">
           <span>聞き流しで練習する<small>日本語、考える間、英語の順に流れます</small></span><span class="tri" aria-hidden="true">▶</span>
-        </button>`;
+        </button>
+        <a class="shelf-link" href="mimi.html">
+          <span>耳のドリルと英語のシャワー<small>ネイティブの英語を聞き取る番組・全${DATA.mimiCount || 19}回</small></span><span aria-hidden="true">→</span>
+        </a>`;
     for (const g of DATA.groups) {
       html += `<h2 class="group">${esc(g)}</h2>`;
       for (const c of DATA.categories.filter((x) => x.group === g)) {

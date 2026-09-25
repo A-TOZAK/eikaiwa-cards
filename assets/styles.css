@@ -126,3 +126,53 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 @media (min-width: 700px) {
   .hero { max-width: 760px; margin: 0 auto; }
 }
+
+/* ── 耳のドリル（mimi.html） ── */
+body.mimi #app { padding-bottom: calc(168px + var(--safe-b)); }
+.top-link { padding: 14px 0 6px; font-size: 15px; }
+.top-link a, .tx-link { color: var(--ai); font-weight: 700; text-decoration: none; }
+.how { margin: 6px 0 0; font-size: 15px; color: var(--ink-soft); }
+.how summary { cursor: pointer; color: var(--ai); font-weight: 700; padding: 6px 0; }
+.how p { margin: 6px 0; }
+.ep { padding: 16px 0 14px; border-bottom: 1px solid var(--line); }
+.ep .eh { display: flex; align-items: baseline; gap: 10px; }
+.ep .en-n { flex: 0 0 auto; font-size: 14px; font-weight: 700; color: var(--ai); font-feature-settings: "tnum"; }
+.ep .t { font-size: 18px; font-weight: 700; line-height: 1.45; }
+.btns { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 10px 0 8px; }
+.pbtn { display: flex; align-items: center; gap: 6px; min-height: 50px; padding: 0 10px; border: 1px solid var(--ai); border-radius: 3px; background: var(--white); text-align: left; }
+.pbtn::before { content: "▶"; font-size: 12px; color: var(--ai); }
+.pbtn .k { font-weight: 700; color: var(--ai); white-space: nowrap; }
+.nb { display: inline-block; }
+.pbtn .d { font-size: 14px; white-space: nowrap; color: var(--ink-soft); font-feature-settings: "tnum"; }
+.pbtn .ok { margin-left: auto; font-size: 12px; font-weight: 700; color: var(--karashi); }
+.pbtn.now { background: var(--ai); }
+.pbtn.now::before, .pbtn.now .k, .pbtn.now .d, .pbtn.now .ok { color: #fff; }
+.tx-link { font-size: 15px; }
+
+.pbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 7; background: var(--paper); border-top: 1px solid var(--ink); padding: 10px 0 calc(10px + var(--safe-b)); }
+.pinfo { display: flex; justify-content: space-between; gap: 10px; font-size: 14px; }
+.pinfo .pt { min-width: 0; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pinfo .ptime { flex: 0 0 auto; color: var(--ink-soft); font-feature-settings: "tnum"; }
+.seek { width: 100%; margin: 8px 0 6px; accent-color: var(--ai); }
+.pctl { display: grid; grid-template-columns: 1fr 1fr 1.3fr 1fr 1fr; gap: 8px; }
+.pctl button { min-height: 52px; border: 1px solid var(--line); border-radius: 3px; background: var(--white); font-size: 15px; line-height: 1.25; font-weight: 700; color: var(--ink); }
+.pctl .pplay { background: var(--ai); border-color: var(--ai); color: #fff; font-size: 20px; }
+.pctl button:active { opacity: .8; }
+
+.tx { padding-top: 10px; }
+.tx h3 { margin: 26px 0 8px; padding-bottom: 6px; font-size: 15px; letter-spacing: .06em; color: var(--ai); border-bottom: 1px solid var(--line); }
+.tx .scene { color: var(--ink-soft); font-size: 16px; }
+.tx details summary { cursor: pointer; color: var(--ai); font-weight: 700; }
+.lines, .sounds { margin: 0; padding: 0; list-style: none; }
+.lines li, .sounds li { display: grid; gap: 2px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.lines .who { font-size: 13px; font-weight: 700; color: var(--karashi); }
+.lines .en, .sounds .en { font-size: 18px; font-weight: 700; line-height: 1.5; }
+.lines .jp, .sounds .jp { font-size: 15px; color: var(--ink-soft); }
+.sounds b { font-size: 15px; color: var(--ai); }
+.talk { padding: 12px 0; border-bottom: 1px solid var(--line); }
+.talk summary { font-weight: 700; line-height: 1.6; }
+.talk summary small { font-weight: 400; color: var(--ink-soft); }
+.talk summary .jp { font-weight: 400; font-size: 15px; color: var(--ink-soft); }
+.talk p { margin: 10px 0 0; font-size: 17px; line-height: 1.7; }
+.shelf-link { display: flex; align-items: center; justify-content: space-between; width: 100%; margin: 0 0 8px; padding: 14px 18px; border: 1px solid var(--ai); color: var(--ai); border-radius: 3px; font-weight: 700; font-size: 17px; text-decoration: none; background: var(--white); }
+.shelf-link small { display: block; font-weight: 400; font-size: 14px; color: var(--ink-soft); }
