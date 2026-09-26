@@ -260,6 +260,17 @@
         <ol class="sounds">
           ${e.sounds.map((s) => `<li><b class="ja">${esc(s.point)}</b><span class="en" lang="en">${esc(s.natural)}</span><span class="jp ja">${esc(s.explain)}</span></li>`).join('')}
         </ol>
+        ${e.humor ? `
+        <h3>笑いのポイント　<span class="ja">${esc(e.humor.technique)}</span></h3>
+        <div class="humor">
+          <p><span class="who" lang="en">${esc(e.humor.joke.who)}</span><br><span class="en" lang="en">${esc(e.humor.joke.en)}</span></p>
+          <p class="jp ja">${esc(e.humor.why)}</p>
+          <p class="jp ja">${esc(e.humor.cue)}</p>
+          <ol class="sounds">
+            ${e.humor.responses.map((r) => `<li><span class="en" lang="en">${esc(r.en)}</span><span class="jp ja">${esc(r.ja)}</span></li>`).join('')}
+            <li><b class="ja">アキの持ちネタ</b><span class="en" lang="en">${esc(e.humor.aki.en)}</span><span class="jp ja">${esc(e.humor.aki.ja)}</span></li>
+          </ol>
+        </div>` : ''}
         <h3>シャワー <span lang="en">${esc(e.shower.topic_en)}</span></h3>
         ${e.shower.talks.map((t) => `
           <details class="talk">

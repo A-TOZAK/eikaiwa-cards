@@ -176,3 +176,7 @@ body.mimi #app { padding-bottom: calc(168px + var(--safe-b)); }
 .talk p { margin: 10px 0 0; font-size: 17px; line-height: 1.7; }
 .shelf-link { display: flex; align-items: center; justify-content: space-between; width: 100%; margin: 0 0 8px; padding: 14px 18px; border: 1px solid var(--ai); color: var(--ai); border-radius: 3px; font-weight: 700; font-size: 17px; text-decoration: none; background: var(--white); }
 .shelf-link small { display: block; font-weight: 400; font-size: 14px; color: var(--ink-soft); }
+.humor p { margin: 8px 0; }
+.humor .who { font-size: 13px; font-weight: 700; color: var(--karashi); }
+.humor .en { font-size: 18px; font-weight: 700; }
+.humor .jp { font-size: 15px; color: var(--ink-soft); }
