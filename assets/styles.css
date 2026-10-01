@@ -45,6 +45,8 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 }
 .listen-all small { display: block; font-weight: 400; font-size: 14px; opacity: .85; }
 .listen-all .tri { font-size: 20px; }
+.listen-all.nagashi { margin-top: 0; background: var(--white); color: var(--ai); border: 1px solid var(--ai); }
+.pbtn[data-play$="/nagashi"] { grid-column: 1 / -1; }
 
 .group { margin: 30px 0 0; padding-bottom: 6px; font-size: 14px; font-weight: 700; letter-spacing: .1em; color: var(--ai); border-bottom: 1px solid var(--line); }
 .shelf { display: grid; grid-template-columns: 84px 1fr; gap: 16px; align-items: center; width: 100%; padding: 16px 0; border-bottom: 1px solid var(--line); text-align: left; }

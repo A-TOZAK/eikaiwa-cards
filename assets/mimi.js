@@ -6,10 +6,10 @@
   const $bar = document.getElementById('bar');
   const player = document.getElementById('player');
   const RATES = [0.8, 1, 1.2];
-  const KIND = { drill: 'ドリル', shower: 'シャワー' };
+  const KIND = { drill: 'ドリル', shower: 'シャワー', nagashi: '聞き流し' };
 
   let DATA = null;
-  let queue = [];        // [{ ep, kind }] 第1回ドリル → 第1回シャワー → 第2回ドリル …
+  let queue = [];        // [{ ep, kind }] 第1回ドリル → 第1回シャワー → 第2回ドリル … のあとに、聞き流し 第1回 → 第2回 …
   let cur = -1;          // いま入っている queue の番号
   let store = load();
   let lastSave = 0;
@@ -18,9 +18,9 @@
   function load() {
     try {
       const s = JSON.parse(localStorage.getItem(KEY)) || {};
-      return { pos: s.pos || null, done: s.done || {}, rate: s.rate || 1 };
+      return { pos: s.pos || null, npos: s.npos || null, done: s.done || {}, rate: s.rate || 1 };
     } catch (e) {
-      return { pos: null, done: {}, rate: 1 };
+      return { pos: null, npos: null, done: {}, rate: 1 };
     }
   }
   function save() {
@@ -36,6 +36,21 @@
   const keyOf = (q) => `${q.ep.id}_${q.kind}`;
   const label = (q) => `第${q.ep.n}回 ${KIND[q.kind]}`;
   const findIdx = (id, kind) => queue.findIndex((q) => q.ep.id === id && q.kind === kind);
+  const isN = (q) => q.kind === 'nagashi';
+  const mainQ = () => queue.filter((q) => !isN(q));
+  const nIdx = () => queue.map((q, i) => (isN(q) ? i : -1)).filter((i) => i >= 0);
+  // 聞き流しは最後まで行ったら第1回にもどる。ドリルとシャワーは最後で止まる
+  function nextIdx(i) {
+    if (isN(queue[i])) { const ns = nIdx(); const j = ns.indexOf(i); return ns[(j + 1) % ns.length]; }
+    return i + 1 < queue.length && !isN(queue[i + 1]) ? i + 1 : -1;
+  }
+  function prevIdx(i) {
+    if (isN(queue[i])) { const ns = nIdx(); const j = ns.indexOf(i); return ns[(j - 1 + ns.length) % ns.length]; }
+    return i > 0 ? i - 1 : -1;
+  }
+  function savePos(idx, t) {
+    if (isN(queue[idx])) store.npos = { idx, t }; else store.pos = { idx, t };
+  }
 
   // ── 再生 ─────────────────────────────────────────
   function setTrack(idx, at, autoplay) {
@@ -53,7 +68,7 @@
       player.playbackRate = store.rate;
     };
     if (player.readyState >= 1) start(); else player.addEventListener('loadedmetadata', start, { once: true });
-    store.pos = { idx, t: seekTo };
+    savePos(idx, seekTo);
     save();
     mediaMeta(q);
     if (autoplay) {
@@ -75,18 +90,26 @@
   }
   function resume() {
     const pos = store.pos;
-    if (pos && pos.idx < queue.length) return setTrack(pos.idx, pos.t, true);
-    const firstTodo = queue.findIndex((q) => !store.done[keyOf(q)]);
+    if (pos && pos.idx < queue.length && !isN(queue[pos.idx])) return setTrack(pos.idx, pos.t, true);
+    const firstTodo = queue.findIndex((q) => !isN(q) && !store.done[keyOf(q)]);
     setTrack(firstTodo < 0 ? 0 : firstTodo, 0, true);
   }
   function skip(sec) {
     if (cur < 0) return;
     player.currentTime = Math.max(0, Math.min((player.duration || 0) - 0.5, player.currentTime + sec));
   }
-  function nextTrack() { if (cur + 1 < queue.length) setTrack(cur + 1, 0, true); }
+  function resumeN() {
+    const ns = nIdx();
+    if (!ns.length) return;
+    const pos = store.npos;
+    if (pos && ns.includes(pos.idx)) return setTrack(pos.idx, pos.t, true);
+    setTrack(ns[0], 0, true);
+  }
+  function nextTrack() { if (cur < 0) return; const j = nextIdx(cur); if (j >= 0) setTrack(j, 0, true); }
   function prevTrack() {
-    if (player.currentTime > 5 || cur <= 0) { player.currentTime = 0; return; }
-    setTrack(cur - 1, 0, true);
+    const j = cur < 0 ? -1 : prevIdx(cur);
+    if (player.currentTime > 5 || j < 0) { player.currentTime = 0; return; }
+    setTrack(j, 0, true);
   }
   function cycleRate() {
     const i = RATES.indexOf(store.rate);
@@ -100,7 +123,7 @@
     if (cur < 0) return;
     const now = Date.now();
     if (now - lastSave > 4000) {
-      store.pos = { idx: cur, t: Math.max(0, player.currentTime - 2) };
+      savePos(cur, Math.max(0, player.currentTime - 2));
       save();
       lastSave = now;
     }
@@ -108,7 +131,7 @@
   });
   player.addEventListener('play', renderBar);
   player.addEventListener('pause', () => {
-    if (cur >= 0) { store.pos = { idx: cur, t: player.currentTime }; save(); }
+    if (cur >= 0) { savePos(cur, player.currentTime); save(); }
     renderBar();
   });
   player.addEventListener('ended', () => {
@@ -116,7 +139,8 @@
     store.done[keyOf(q)] = Date.now();
     save();
     markRows();
-    if (cur + 1 < queue.length) setTrack(cur + 1, 0, true);
+    const j = nextIdx(cur);
+    if (j >= 0) setTrack(j, 0, true);
     else { store.pos = null; save(); renderBar(); }
   });
 
@@ -126,7 +150,7 @@
     try {
       navigator.mediaSession.metadata = new MediaMetadata({
         title: `${label(q)}　${q.ep.title}`,
-        artist: q.kind === 'drill' ? '耳のドリル' : '英語のシャワー',
+        artist: q.kind === 'drill' ? '耳のドリル' : q.kind === 'shower' ? '英語のシャワー' : '聞き流し',
         album: '耳のドリル',
         artwork: [{ src: 'img/icon-180.png', sizes: '180x180', type: 'image/png' }],
       });
@@ -176,33 +200,40 @@
   // ── 画面：一覧 ───────────────────────────────────
   function resumeText() {
     const pos = store.pos;
-    if (pos && pos.idx < queue.length) {
+    if (pos && pos.idx < queue.length && !isN(queue[pos.idx])) {
       const q = queue[pos.idx];
       return `${label(q)}　${q.ep.title}　${mmss(pos.t)}から`;
     }
-    const i = queue.findIndex((q) => !store.done[keyOf(q)]);
+    const i = queue.findIndex((q) => !isN(q) && !store.done[keyOf(q)]);
     return i < 0 ? '全部聞きました。第1回から聞き直せます' : `${label(queue[i])}　${queue[i].ep.title}から`;
   }
   function viewHome() {
     const eps = DATA.episodes;
-    const doneN = queue.filter((q) => store.done[keyOf(q)]).length;
+    const mq = mainQ();
+    const doneN = mq.filter((q) => store.done[keyOf(q)]).length;
+    const np = store.npos && queue[store.npos.idx] && isN(queue[store.npos.idx]) ? store.npos : null;
+    const nText = np ? `第${queue[np.idx].ep.n}回　${queue[np.idx].ep.title}　${mmss(np.t)}から` : '第1回から。最後まで行くと第1回にもどります';
     let html = `
       <div class="wrap">
         <div class="top-link"><a href="index.html">← 英会話カード</a></div>
         <header class="masthead">
           <div class="kicker" lang="en">LISTENING DRILL</div>
           <h1 class="ja"><span class="nb">耳のドリルと</span><span class="nb">英語のシャワー</span></h1>
-          <p class="ja">ネイティブの英語を聞き取る耳をつくる番組です。1回はドリル約10分とシャワー約11分の2本です。画面を消しても流れつづけ、終わると次へ進みます。</p>
+          <p class="ja">ネイティブの英語を聞き取る耳をつくる番組です。1回はドリル約10分とシャワー約11分の2本です。画面を消しても流れつづけ、終わると次へ進みます。ただ聞きつづけたいときは、聞き流しをどうぞ。</p>
         </header>
-        <div class="total"><span class="num">${doneN}</span><span class="of">／ ${queue.length}本 聞いた</span></div>
-        <div class="bar"><i style="width:${queue.length ? Math.round((doneN / queue.length) * 100) : 0}%"></i></div>
+        <div class="total"><span class="num">${doneN}</span><span class="of">／ ${mq.length}本 聞いた</span></div>
+        <div class="bar"><i style="width:${mq.length ? Math.round((doneN / mq.length) * 100) : 0}%"></i></div>
         <button class="listen-all" data-act="resume">
           <span>つづきから聞く<small class="ja">${esc(resumeText())}</small></span><span class="tri" aria-hidden="true">▶</span>
         </button>
+        ${nIdx().length ? `<button class="listen-all nagashi" data-act="nagashi">
+          <span>聞き流し（ずっと流す）<small class="ja">${esc(nText)}</small></span><span class="tri" aria-hidden="true">▶</span>
+        </button>` : ''}
         <details class="how">
-          <summary>2本のちがい</summary>
+          <summary>3つのちがい</summary>
           <p class="ja"><b>ドリル</b>は、会話を聞いて、一文ずつ英語と日本語で確かめ、音のつながりを練習する回です。まねする間が入っています。</p>
           <p class="ja"><b>シャワー</b>は、同じ話題を6人の先生が話すのを、ほぼ英語だけで聞く回です。国ごとの英語を聞きなれるのがねらいです。</p>
+          <p class="ja"><b>聞き流し</b>は、まねする間を入れずに流しつづける回です。会話を英語だけで聞き、一文ずつ英語のすぐあとに日本語を聞き、もう一度英語だけで聞きます。最後に6人の話を、英語のあとに日本語のひとことで聞きます。全${eps.length}回をくり返し流します。</p>
         </details>
         <h2 class="group">全${eps.length}回</h2>`;
     for (const e of eps) {
@@ -210,7 +241,7 @@
         <section class="ep" id="${e.id}">
           <div class="eh"><span class="en-n">第${e.n}回</span><span class="t ja">${esc(e.title)}</span></div>
           <div class="btns">
-            ${['drill', 'shower'].map((k) => `
+            ${['drill', 'shower', 'nagashi'].filter((k) => e.files[k]).map((k) => `
               <button class="pbtn" data-play="${e.id}/${k}">
                 <span class="k">${KIND[k]}</span><span class="d">${mmss(e.files[k].sec)}</span><span class="ok" data-done="${e.id}_${k}">${store.done[`${e.id}_${k}`] ? '聞いた' : ''}</span>
               </button>`).join('')}
@@ -247,6 +278,7 @@
         <div class="btns">
           <button class="pbtn" data-play="${e.id}/drill"><span class="k">ドリル</span><span class="d">${mmss(e.files.drill.sec)}</span></button>
           <button class="pbtn" data-play="${e.id}/shower"><span class="k">シャワー</span><span class="d">${mmss(e.files.shower.sec)}</span></button>
+          ${e.files.nagashi ? `<button class="pbtn" data-play="${e.id}/nagashi"><span class="k">聞き流し</span><span class="d">${mmss(e.files.nagashi.sec)}</span></button>` : ''}
         </div>
         <p class="scene ja">${esc(e.scene)}</p>
         <h3>聞きどころ</h3>
@@ -302,13 +334,14 @@
       const [id, k] = pl.dataset.play.split('/');
       const idx = findIdx(id, k);
       if (idx === cur) return toggle();
-      const pos = store.pos;
+      const pos = isN(queue[idx]) ? store.npos : store.pos;
       return setTrack(idx, pos && pos.idx === idx ? pos.t : 0, true);
     }
     const el = ev.target.closest('[data-act]');
     if (!el) return;
     const act = el.dataset.act;
     if (act === 'resume') return resume();
+    if (act === 'nagashi') return resumeN();
     if (act === 'toggle') return toggle();
     if (act === 'back10') return skip(-10);
     if (act === 'next') return nextTrack();
@@ -320,9 +353,10 @@
     .then((r) => r.json())
     .then((d) => {
       DATA = d;
-      queue = d.episodes.flatMap((ep) => [{ ep, kind: 'drill' }, { ep, kind: 'shower' }]);
+      queue = d.episodes.flatMap((ep) => [{ ep, kind: 'drill' }, { ep, kind: 'shower' }])
+        .concat(d.episodes.filter((ep) => ep.files.nagashi).map((ep) => ({ ep, kind: 'nagashi' })));
       const pos = store.pos;
-      if (pos && pos.idx < queue.length) setTrack(pos.idx, pos.t, false);
+      if (pos && pos.idx < queue.length && !isN(queue[pos.idx])) setTrack(pos.idx, pos.t, false);
       route();
     })
     .catch(() => { $app.innerHTML = '<div class="wrap"><p class="ja">データを読みこめませんでした。電波のよいところで開き直してください。</p></div>'; });
